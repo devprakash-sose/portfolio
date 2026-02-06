@@ -1,0 +1,39 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+    height: 6rem;
+    /* background-color: red; */
+    padding: 0 3rem;
+    border-bottom: 2px solid #11111150;
+    width: 100vw;
+    z-index: 99999;
+    background-color: white;
+}
+
+header h2{
+    font-size: 2.7rem;
+    font-weight: 600;
+}
+
+nav{
+    background-color: #90909020;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: 1px solid #00000020;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Instrument Serif';
+    font-size: 2rem;
+}
+
+nav a:nth-child(1){
+    text-decoration: underline;
+}

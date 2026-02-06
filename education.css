@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Instrument Sans';
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    min-height: 100vh;
+    width: 100%;
+}
+
+.main{
+    height: calc(100vh - 6rem);
+    display: flex;
+    width: 100vw;
+    padding: 1.6rem;
+}
+
+.inner-main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden; 
+}
+
+.school{
+    height: 100%;
+    width: 33%;
+    border: 1px solid #111;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.num{
+    border: 3px solid white;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-family: Instrument Serif;
+    font-size: 2rem;
+}
+.school div{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.school h2{
+    font-size: 4rem;
+    text-align: center;
+}
